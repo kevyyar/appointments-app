@@ -1,0 +1,23 @@
+.patient {
+  text-align: left;
+  background: #FFFBFA;
+  border-radius: 8px;
+  padding: 40px;
+  margin-top: 20px;
+  //height: 100%;
+  width: 500px;
+  -webkit-box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.49);
+  box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.49);
+  p {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .patient-details {
+    text-transform: none;
+    font-weight: normal;
+  }
+  .btn-actions {
+    display: flex;
+    margin-top: 1.2rem;
+  }
+}

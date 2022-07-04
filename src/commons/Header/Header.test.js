@@ -2,12 +2,12 @@
 import React from 'react'
 import {render, screen} from '@testing-library/react'
 import '@testing-library/jest-dom'
-import {PatientsList} from "./PatientsList";
+import {Header} from "./Header";
 
 describe('Header', () => {
     it('should render header title', () => {
-            render(<PatientsList/>)
-            const title = screen.getByRole('heading', /patients list/i);
+            render(<Header/>)
+            const title = screen.getByRole('heading', /patient follow-up veterinary/i);
             expect(title).toBeInTheDocument()
         }
     )

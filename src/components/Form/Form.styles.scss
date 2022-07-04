@@ -1,0 +1,49 @@
+.form-container{
+  text-align: center;
+  h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  .subheading {
+      color: #4b0082;
+  }
+  .patient-form {
+    background: #FFFBFA;
+    border-radius: 8px;
+    padding: 40px;
+    margin-top: 20px;
+    height: 100%;
+    width: 500px;
+    -webkit-box-shadow: 1px 1px 7px 0 rgba(0,0,0,0.49);
+    box-shadow: 1px 1px 7px 0 rgba(0,0,0,0.49);
+    div {
+      display: flex;
+      flex-direction: column;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+    label {
+      display: block;
+      text-align: left;
+      text-transform: uppercase;
+      color: gray;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    input, textarea {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 10px;
+        &:focus {
+            outline: none;
+        }
+    }
+  }
+}
